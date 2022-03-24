@@ -6,12 +6,6 @@
 
 <img src="https://s1.ax1x.com/2020/04/26/JRuNrR.png" width = "500" height = "300" alt="github实现云签到" align=center />
 
-### 前言
-为了让同学们更加认真、更加专注听课，而不去用手机签到花费大量时间、耗费大量精力，特此在[原脚本](https://github.com/mkdir700/chaoxing_auto_sign)中开发升级，请自行合理使用！挂科请不要找我，谢谢合作！请点击下方View all of README.md了解更多。
-
-本项目支持学习通任何形式的签到（包括二维码签到、手势签到等），如果是位置签到也可以自定义位置，如果是拍照签到，请自认倒霉，因为默认是黑色照片，自定义照片还在等待开发中。
-
-本脚本最大的不同应该就是基于github action运行，所以并不需要服务器、不需要服务器、不需要服务器同样也不需要掌握任何python的相关设置，你所需要准备的就是一个github账号以及一个耐而不烦的心。傻瓜式的操作却可以解决你最大的痛苦。
 
 ### 特点
 1、基于原先作者强大的脚本，本项目支持任何形式的学习通签到。<br>
@@ -43,7 +37,7 @@
    ![E19D60FD6823769D2822C93960835D01.jpg][3]
    <br><br><br>
    2.点击chaoxing字样的项目也就是刚刚fork后的项目
-   
+
    ![41CA3BC4C95CAE8D7F8FB3A05B816CB0.jpg][4]
    <br><br><br>
    3.点击setting进入设置界面
@@ -52,15 +46,7 @@
    <br><br><br>
    4.点击secrets后点击add a new secret
    
-   ![3AB6B127331F5CCE552730FACDA680A3.jpg][6]
-   <br><br><br>
-   依次添加以下所有name以及value。<br>
-    ┉┉ ∞ ∞ ┉┉┉┉ ∞ ∞ ┉┉┉ <br>Name:<code>CHAOXING_USERNAME</code><br>
-	Value：<code>填写你的超星账户，最好为11位的手机号</code><br>
-   ┉┉ ∞ ∞ ┉┉┉┉ ∞ ∞ ┉┉┉<br>
-     Name：<code>CHAOXING_PASSWORD</code><br>
-     Value：<code>填写你的超星密码</code><br>
-    ┉┉ ∞ ∞ ┉┉┉┉ ∞ ∞ ┉┉┉<br>
+ 
      Name：<code>CHAOXING_SCHOOL</code><br>
      Value：<code>填写你的schoolid</code>#如果CHAOXING_USERNAME中的Value填写的是手机号，则本处填写'None'<br>
      ┉┉ ∞ ∞ ┉┉┉┉ ∞ ∞ ┉┉┉<br>
